@@ -9,11 +9,6 @@ public class RotateRecord : MonoBehaviour
     public GameObject target;
     private float speed = 75f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
