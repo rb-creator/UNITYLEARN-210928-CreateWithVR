@@ -12,7 +12,7 @@ public class RotateRecord : MonoBehaviour
 
     void Update()
     {
-        // Spin the object around the target at 20 degrees/second.
+        // Spin the object around the target .
         transform.RotateAround(target.transform.position, Vector3.up, speed * Time.deltaTime);
     }
 
